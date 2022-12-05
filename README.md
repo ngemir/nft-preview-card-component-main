@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://swaveng.github.io/nft-preview-card-component-main/](https://swaveng.github.io/nft-preview-card-component-main/)
 - Live Site URL: [https://swaveng.github.io/nft-preview-card-component-main/](https://swaveng.github.io/nft-preview-card-component-main/)
 
 ## My process
