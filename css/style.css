@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: rgba(0, 255, 247, 1);
+  --mainBG: hsl(217, 54%, 11%);
+  --cardBG: hsl(216, 50%, 16%);
+  --line: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', sans-serif;
+  font-size: 18px;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { font-size: 11px; color: hsl(228, 45%, 44%); }
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--mainBG);
+  display: grid;
+  grid-template-rows: 95% 5%;
+  place-content: center;
+}
+
+main {
+  background-color: var(--cardBG);
+  margin: auto 25px;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 285px;
+}
+
+.thumb{
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.thumb img {
+  width: 100%;
+  display: block;
+}
+
+.eyecover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--cyan);
+  display: grid;
+  place-content: center;
+  opacity: 0;
+  transition: 0.2s ease-in-out;
+}
+
+.eyecover:hover{
+  background-color: rgba(0, 255, 247, 0.5);
+  opacity: 1;
+}
+
+.eyecover img{
+  width: 50px;
+}
+
+.description {
+  margin: 20px 0;
+}
+
+.description h1{
+  font-size: 24px;
+  transition: 0.2s ease-in-out;
+}
+
+.description h1:hover{
+  color: var(--cyan);
+}
+
+.description .description_text{
+  margin: 20px 0;
+  font-weight: 300;
+  color: var(--soft-blue);
+}
+
+.description .offer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.description .offer div{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.description .offer div img{
+  align-self: center;
+}
+
+.offer p {
+  margin-left: 10px;
+}
+
+.offer_price p {
+  color: var(--cyan);
+  font-weight: 600;
+}
+
+.offer_time p {
+  color: var(--soft-blue);
+  font-weight: 400;
+}
+
+.line{
+  border: 0.5px solid var(--line);
+}
+
+.profile{
+  display: flex;
+  align-items: center;
+  margin: 20px 0 0;
+}
+
+.profile img {
+  width: 40px;
+  border: 2px solid var(--white);
+  border-radius: 25px;
+}
+
+.profile p {
+  margin-left: 15px;
+  font-size: 16px;
+  font-weight: 300;
+  color: var(--soft-blue);
+}
+
+.profile p a{
+  font-weight: 300;
+  transition: 0.2s ease-in-out;
+}
+
+.profile p a:hover{
+  color: var(--cyan);
+}
