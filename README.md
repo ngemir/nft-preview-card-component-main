@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://swaveng.github.io/nft-preview-card-component-main/](https://swaveng.github.io/nft-preview-card-component-main/)
-- Live Site URL: [https://swaveng.github.io/nft-preview-card-component-main/](https://swaveng.github.io/nft-preview-card-component-main/)
+- Solution URL: 
+- Live Site URL: [https://ngemir.github.io/nft-preview-card-component-main/](https://ngemir.github.io/nft-preview-card-component-main/)
 
 ## My process
 
